@@ -1,0 +1,129 @@
+:root {
+  --navy: #161D52;
+  --cream: #F7F4EF;
+  --ink: #171719;
+  --sans: "Montserrat", Arial, sans-serif;
+  --serif: "Cormorant Garamond", Georgia, serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--cream); background: var(--navy); font-family: var(--sans); }
+a { color: inherit; text-decoration: none; }
+.contact-hero {
+  min-height: 74vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  isolation: isolate;
+  background: #343438 url("assets/mi-ti-barril.webp") center 53% / cover no-repeat;
+}
+.contact-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(35,36,40,.76), rgba(35,36,40,.56) 56%, rgba(35,36,40,.42));
+}
+.watermark {
+  position: absolute;
+  z-index: -1;
+  left: -2.5vw;
+  bottom: -8vw;
+  color: rgba(247,244,239,.105);
+  font: 700 clamp(220px, 43vw, 650px)/.75 var(--serif);
+  letter-spacing: -.11em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.hero-content {
+  width: min(1100px, 90%);
+  text-align: center;
+  padding: 85px 0 90px;
+  position: relative;
+}
+.eyebrow { font-size: 15px; font-weight: 500; letter-spacing: .025em; margin: 0 0 62px; }
+h1 {
+  margin: 0 auto 48px;
+  max-width: 1000px;
+  font: 500 clamp(48px, 5.5vw, 82px)/1.02 var(--serif);
+  letter-spacing: -.025em;
+  color: #F7F4EF;
+}
+.intro { margin: 0 auto 34px; font-size: clamp(14px, 1.45vw, 20px); line-height: 1.6; color: rgba(255,255,255,.94); }
+.quote-button {
+  min-height: 58px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  padding: 0 25px;
+  background: var(--cream);
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .015em;
+  transition: transform .2s, box-shadow .2s;
+  box-shadow: 0 9px 24px rgba(0,0,0,.15);
+}
+.quote-button:hover { transform: translateY(-3px); box-shadow: 0 13px 28px rgba(0,0,0,.24); }
+.quote-button span, .footer-cta span { font-size: 22px; line-height: 1; }
+.footer {
+  min-height: 26vh;
+  padding: 38px 5vw 22px;
+  background: var(--navy);
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+}
+.footer-brand { align-self: center; }
+.logo {
+  display: inline-flex;
+  flex-direction: column;
+  font: 700 47px/.78 var(--serif);
+  letter-spacing: -.08em;
+  margin-bottom: 23px;
+}
+.logo span { font: 600 8px/1 var(--sans); letter-spacing: .52em; text-align: center; margin-top: 8px; }
+.footer-brand p { margin: 9px 0; font-size: 13px; color: rgba(255,255,255,.9); }
+.footer-contact {
+  border-left: 1px solid rgba(255,255,255,.38);
+  padding-left: clamp(28px, 6vw, 95px);
+  display: grid;
+  gap: 19px;
+}
+.footer-contact a { display: flex; align-items: center; gap: 22px; font-size: 14px; }
+.symbol { width: 22px; font-size: 23px; text-align: center; }
+.footer-cta {
+  justify-self: end;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgba(255,255,255,.85);
+  font-size: 12px;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+.copyright {
+  grid-column: 1 / -1;
+  border-top: 1px solid rgba(255,255,255,.16);
+  padding-top: 15px;
+  color: rgba(255,255,255,.55);
+  font-size: 10px;
+}
+@media (max-width: 760px) {
+  .contact-hero { min-height: 70vh; background-position: 62% center; }
+  .hero-content { padding: 75px 0; }
+  .eyebrow { margin-bottom: 42px; font-size: 12px; }
+  h1 { margin-bottom: 32px; font-size: clamp(43px, 10vw, 62px); }
+  .intro { max-width: 480px; margin-bottom: 28px; }
+  .quote-button { font-size: 11px; padding: 0 15px; gap: 12px; min-height: 54px; }
+  .watermark { left: -8vw; bottom: -2vw; font-size: 56vw; }
+  .footer { grid-template-columns: 1fr; gap: 27px; padding: 40px 7vw 22px; }
+  .footer-contact { border-left: 0; border-top: 1px solid rgba(255,255,255,.28); padding: 25px 0 0; }
+  .footer-cta { justify-self: start; font-size: 10px; }
+}
