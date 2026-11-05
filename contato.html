@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entre em contato com a Mi Ti Cocktail e crie uma experiência de alta coquetelaria para o seu evento.">
+  <meta name="theme-color" content="#161D52">
+  <title>Vamos conversar? | Mi Ti Cocktail</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+  <main>
+    <section class="contact-hero">
+      <div class="watermark" aria-hidden="true">MI TI</div>
+      <div class="hero-content">
+        <p class="eyebrow">VAMOS CONVERSAR?</p>
+        <h1>Seu evento merece<br>um bar à altura.</h1>
+        <p class="intro">Conte um pouco sobre o seu evento e vamos construir a experiência ideal.</p>
+        <a class="quote-button" data-whatsapp href="https://wa.me/5511974651716" target="_blank" rel="noopener">
+          SOLICITAR ORÇAMENTO PELO WHATSAPP <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <a class="logo" href="index.html" aria-label="Mi Ti Cocktail">MI TI<span>COCKTAIL</span></a>
+      <p>“Especialmente de Mim para Ti”</p>
+      <p>Alta coquetelaria para eventos</p>
+    </div>
+    <div class="footer-contact">
+      <a href="https://www.instagram.com/miticocktail/" target="_blank" rel="noopener"><span class="symbol">◎</span>@miticocktail</a>
+      <a href="mailto:contato@miticocktail.com"><span class="symbol">✉</span>contato@miticocktail.com</a>
+      <a href="https://wa.me/5511974651716" target="_blank" rel="noopener"><span class="symbol">◉</span>(11) 9 7465-1716</a>
+    </div>
+    <a class="footer-cta" data-whatsapp href="https://wa.me/5511974651716" target="_blank" rel="noopener">
+      SOLICITAR ORÇAMENTO PELO WHATSAPP <span aria-hidden="true">↗</span>
+    </a>
+    <div class="copyright">© <span id="year"></span> Mi Ti Cocktail. Todos os direitos reservados.</div>
+  </footer>
+
+  <script>
+    const message = "Olá! Vim pelo site da Mi Ti Cocktail e gostaria de solicitar um orçamento para meu evento.";
+    document.querySelectorAll("[data-whatsapp]").forEach(link => {
+      link.href = "https://wa.me/5511974651716?text=" + encodeURIComponent(message);
+    });
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
