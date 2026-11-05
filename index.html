@@ -3,174 +3,203 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Mi Ti Cocktail — alta coquetelaria para eventos em São Paulo. Cocktails autorais, clássicos e ingredientes artesanais.">
-  <meta name="theme-color" content="#161D52">
+  <meta name="description" content="Mi Ti Cocktail — alta coquetelaria para eventos. Cocktails artesanais, técnica e apresentação pensadas para sua celebração.">
+  <meta name="theme-color" content="#f7f4ef">
   <title>Mi Ti Cocktail | Alta coquetelaria para eventos</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header" id="top">
-    <a class="brand" href="#top" aria-label="Mi Ti Cocktail">
-      <span class="brand-mi">MI</span><span class="brand-ti">TI</span>
-      <small>COCKTAIL</small>
-    </a>
-    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#conceito">A Mi Ti</a>
-      <a href="#cocktails">Cocktails</a>
-      <a href="#eventos">Eventos</a>
-      <a href="#processo">Como funciona</a>
-      <a class="nav-cta" data-whatsapp href="#">Solicitar orçamento</a>
-    </nav>
-  </header>
-
   <main>
-    <section class="hero">
-      <img src="assets/hero.webp" alt="Cocktail servido em copo baixo com gelo e limão desidratado">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="eyebrow">ALTA COQUETELARIA PARA EVENTOS</p>
-        <h1>Seu evento merece<br><em>mais que bebidas.</em></h1>
-        <p class="hero-text">Cocktails preparados com técnica, ingredientes artesanais e uma experiência pensada para o seu momento.</p>
-        <a class="button" data-whatsapp href="#">Fale com a Mi Ti <span>↗</span></a>
+    <section class="hero" id="inicio" aria-label="Mi Ti Cocktail — alta coquetelaria para eventos">
+      <div class="hero-photo" role="img" aria-label="Bar Mi Ti Cocktail com garrafas, plantas e utensílios sobre balcão de madeira"></div>
+      <div class="shade"></div>
+
+      <header class="header">
+        <a class="brand" href="#inicio" aria-label="Mi Ti Cocktail — início">
+          <img src="assets/logo-miti.png" alt="Mi Ti Cocktail">
+          <span>Alta coquetelaria para eventos</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav" aria-label="Navegação principal">
+          <a href="#a-mi-ti">A MI TI</a>
+          <a href="#experiencia">EXPERIÊNCIA</a>
+          <a href="#eventos">EVENTOS</a>
+          <a href="#feedbacks">FEEDBACKS</a>
+          <a href="https://wa.me/5511974651716?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">SOLICITAR ORÇAMENTO</a>
+        </nav>
+      </header>
+
+      <div class="hero-copy">
+        <a class="hero-cta" href="https://wa.me/5511974651716?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20meu%20evento." target="_blank" rel="noopener">
+          <span>CONVERSAR SOBRE MEU EVENTO</span><span class="external" aria-hidden="true">↗</span>
+        </a>
+        <p>Cocktails artesanais, técnica e apresentação pensadas para<br class="desktop-break">
+          transformar o bar em parte da identidade da sua celebração.</p>
       </div>
-      <div class="scroll">ROLE PARA DESCOBRIR <span>↓</span></div>
+
+      <a class="scroll-cue" href="#a-mi-ti">ROLE PARA DESCOBRIR <span aria-hidden="true">⬇</span></a>
     </section>
 
-    <section class="intro section" id="conceito">
-      <div class="section-label">01 — O CONCEITO</div>
-      <div class="intro-grid">
-        <h2>Beber bem<br><em>é uma experiência.</em></h2>
-        <div>
-          <p class="lead">A Mi Ti nasceu da vontade de transformar o bar de um evento em parte da celebração.</p>
-          <p>Trabalhamos com alta coquetelaria sem perder a essência: bons ingredientes, técnica, cuidado e personalidade. Cada evento é pensado de forma única — dos cocktails à apresentação do bar.</p>
+    <section class="about" id="a-mi-ti" aria-label="A Mi Ti">
+      <div class="about-label">A MI TI</div>
+      <h2>”Especialmente<br>de Mim para Ti”</h2>
+      <div class="about-copy">
+        <p class="about-lead">A Mi Ti nasceu para elevar a experiência do bar<br class="wide-break"> no seu evento.</p>
+        <div class="about-body">
+          <p>Por isso, trabalhamos com ingredientes naturais e artesanais,<br class="wide-break"> selecionados pela sua qualidade, procedência e capacidade de<br class="wide-break"> transformar cada cocktail.</p>
+          <p>Porque, para nós, não existe alta coquetelaria sem bons ingredientes. O<br class="wide-break"> resultado está em cada detalhe — e você sente isso no primeiro gole.</p>
         </div>
       </div>
     </section>
 
-    <section class="features section">
-      <div class="feature"><span>01</span><h3>Ingredientes<br>artesanais</h3><p>Insumos produzidos com cuidado para entregar mais sabor e identidade a cada cocktail.</p></div>
-      <div class="feature"><span>02</span><h3>Técnica &<br>qualidade</h3><p>Bartenders preparados e processos pensados para manter consistência durante todo o evento.</p></div>
-      <div class="feature"><span>03</span><h3>Experiência<br>personalizada</h3><p>Uma seleção construída de acordo com o perfil do evento e dos seus convidados.</p></div>
-    </section>
-
-    <section class="cocktails section" id="cocktails">
-      <div class="section-label">02 — COCKTAILS</div>
-      <div class="cocktail-heading">
-        <h2>Clássicos com<br><em>personalidade.</em></h2>
-        <p>Não acreditamos em um cardápio engessado. A carta pode ser construída para combinar com a ocasião, o ambiente e as pessoas.</p>
-      </div>
-      <div class="cocktail-grid">
-        <figure class="cocktail-card tall">
-          <img src="assets/cocktail-vermelho.webp" alt="Cocktail vermelho com limão desidratado">
-          <figcaption><span>01</span><strong>Autorais</strong></figcaption>
-        </figure>
-        <figure class="cocktail-card">
-          <img src="assets/cocktail-espuma.webp" alt="Cocktail cítrico com espuma e arte na superfície">
-          <figcaption><span>02</span><strong>Clássicos</strong></figcaption>
-        </figure>
-        <figure class="cocktail-card">
-          <img src="assets/cocktail-cafe.webp" alt="Cocktail de café com logo Mi Ti">
-          <figcaption><span>03</span><strong>Criações especiais</strong></figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="statement">
-      <div class="statement-inner">
-        <p class="eyebrow">A NOSSA VISÃO</p>
-        <h2>Alta coquetelaria<br><em>não precisa ser complicada.</em></h2>
-        <p>Precisa ser bem feita.</p>
-      </div>
-    </section>
-
-    <section class="events section" id="eventos">
-      <div class="section-label">03 — EVENTOS</div>
-      <div class="events-grid">
-        <div>
-          <h2>O bar que acompanha<br><em>o seu momento.</em></h2>
-          <p>Do primeiro brinde ao último cocktail, cuidamos do bar para que você possa aproveitar o evento.</p>
-          <a class="text-link" data-whatsapp href="#">Planejar meu evento <span>↗</span></a>
+    <section class="experience" id="experiencia" aria-label="Experiência e produção artesanal">
+      <div class="experience-intro">
+        <div class="experience-label">EXPERIÊNCIA</div>
+        <div class="experience-pillars">
+          <article>
+            <h3>Ingredientes</h3>
+            <p>Insumos produzidos com<br>cuidado para entregar mais<br>sabor e identidade a cada<br>cocktail.</p>
+          </article>
+          <article>
+            <h3>Técnica</h3>
+            <p>Utilizamos técnicas modernas<br>quando elas fazem sentido:<br>termo circulador para<br>padronização, clarificação para<br>cocktails mais limpos, infusões,<br>perfumes e outros processos que<br>ampliam a experiência sem<br>esconder o ingrediente.</p>
+          </article>
+          <article>
+            <h3>Personalização</h3>
+            <p>Uma seleção construída de<br>acordo com o perfil do evento e<br>dos seus convidados.<br><br>Visual para que a experiência<br>seja reconhecida antes mesmo<br>do primeiro gole.</p>
+          </article>
         </div>
-        <div class="event-list">
-          <div><span>01</span><strong>Casamentos</strong><small>Celebrações que pedem personalidade.</small></div>
-          <div><span>02</span><strong>Corporativos</strong><small>Uma experiência que representa sua marca.</small></div>
-          <div><span>03</span><strong>Aniversários</strong><small>Do intimista ao grande evento.</small></div>
-          <div><span>04</span><strong>Eventos sociais</strong><small>Momentos feitos para serem lembrados.</small></div>
+      </div>
+      <div class="production-gallery">
+        <div class="production-title">
+          <h2>NOSSA FORMA DE FAZER</h2>
+          <p>Alguns registros da nossa produção para os eventos.</p>
+        </div>
+        <div class="production-photos">
+          <figure><img src="assets/production_lime.png" alt="Limão desidratado"><figcaption>Limão desidratado</figcaption></figure>
+          <figure><img src="assets/production_basil.png" alt="Xarope de manjericão"><figcaption>Xarope de manjericão</figcaption></figure>
+          <figure><img src="assets/production_perfumes.png" alt="Perfumes para cocktails"><figcaption>Perfumes para cocktails</figcaption></figure>
+          <figure><img src="assets/production_coffee.png" alt="Licor de café"><figcaption>Licor de café</figcaption></figure>
+          <figure><img src="assets/production_sousvide.png" alt="Equipamento termocirculador"><figcaption>Equipamento<br>termocirculador</figcaption></figure>
+          <figure><img src="assets/production_strawberry.png" alt="Produção de xarope de morango"><figcaption>Produção de xarope de<br>morango</figcaption></figure>
+          <figure><img src="assets/production_limoncello.png" alt="Produção de limoncello"><figcaption>Produção de limoncello<br>(licor de casca de limão<br>siciliano)</figcaption></figure>
+          <figure><img src="assets/production_liqueur.png" alt="Produção de licor de café"><figcaption>Produção de licor de<br>café</figcaption></figure>
+          <figure><img src="assets/production_milk.png" alt="Técnica de milk punch"><figcaption>Técnica de milk punch<br>para bloody mary<br>clarificado</figcaption></figure>
+          <figure><img src="assets/production_fruits.png" alt="Produção de licores"><figcaption>Produção de licores</figcaption></figure>
         </div>
       </div>
     </section>
 
-    <section class="process section" id="processo">
-      <div class="section-label">04 — COMO FUNCIONA</div>
-      <h2>Do planejamento<br><em>ao último brinde.</em></h2>
-      <div class="process-grid">
-        <div><span>01</span><h3>Você conta</h3><p>Data, local, número de convidados e o estilo do seu evento.</p></div>
-        <div><span>02</span><h3>Nós criamos</h3><p>Definimos a estrutura, os cocktails e os detalhes da experiência.</p></div>
-        <div><span>03</span><h3>Você aproveita</h3><p>A Mi Ti cuida do bar para você aproveitar cada momento.</p></div>
+    <section class="events-page" id="eventos" aria-label="Eventos">
+      <div class="events-main">
+        <div class="events-images">
+          <img src="assets/evento_casamento.png" alt="Bar Mi Ti montado em evento com vista para a cidade">
+          <img src="assets/evento_social.png" alt="Bar Mi Ti montado em ambiente de jardim">
+        </div>
+        <div class="events-content">
+          <div class="events-label">EVENTOS</div>
+          <h2>Um bar pensado<br>para o seu momento.</h2>
+          <div class="event-types">
+            <article><h3>CASAMENTOS</h3><p>Celebrações que pedem personalidade.</p></article>
+            <article><h3>CORPORATIVOS</h3><p>Uma experiência que representa sua marca.</p></article>
+            <article><h3>ANIVERSÁRIOS</h3><p>Do intimista ao grande evento.</p></article>
+            <article><h3>EVENTOS SOCIAIS</h3><p>Momentos feitos para serem lembrados.</p></article>
+          </div>
+          <a class="events-cta" href="https://wa.me/5511974651716?text=Ol%C3%A1%21%20Gostaria%20de%20planejar%20meu%20evento." target="_blank" rel="noopener">
+            <span>PLANEJAR MEU EVENTO</span><span class="external" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+      <div class="events-steps">
+        <article><span class="step-number">1º</span><h3>Você conta</h3><p>Data, local, número de convidados e o estilo<br>do evento.</p></article>
+        <article><span class="step-number">2º</span><h3>Nós criamos</h3><p>Estrutura, cocktails e detalhes são<br>definidos de acordo com a ocasião.</p></article>
+        <article><span class="step-number">3º</span><h3>A Mi Ti entrega</h3><p>Uma equipe preparada cuida do bar<br>para você aproveitar o momento.</p></article>
       </div>
     </section>
 
-
-    <section class="bar-gallery section">
-      <div class="section-label">05 — O BAR</div>
-      <div class="gallery-heading">
-        <h2>Uma presença que<br><em>faz parte do evento.</em></h2>
-        <p>Além dos cocktails, o bar também compõe a experiência. Estrutura, organização e apresentação pensadas para conversar com o ambiente da celebração.</p>
-      </div>
-      <div class="bar-gallery-grid">
-        <figure><img src="assets/bar-jardim.webp" alt="Bar Mi Ti Cocktail montado em jardim para evento"><figcaption>Bar Mi Ti em evento ao ar livre</figcaption></figure>
-        <figure><img src="assets/bar-interno.webp" alt="Bar Mi Ti Cocktail montado em ambiente interno"><figcaption>Estrutura compacta para ambientes internos</figcaption></figure>
+    <section class="applications-gallery" id="aplicacoes" aria-label="Aplicações e montagens da Mi Ti Cocktail">
+      <div class="applications-grid">
+        <img src="assets/gallery-cocktail-top.png" alt="Composição de cocktails e ingredientes vista de cima">
+        <img src="assets/gallery-menu-brand.png" alt="Menu e identidade visual Mi Ti Cocktail no bar">
+        <img src="assets/gallery-tools.png" alt="Utensílios de bar em suporte de madeira">
+        <img src="assets/gallery-bar-tools.png" alt="Montagem de bar com utensílios e bebidas">
+        <img src="assets/gallery-bar-counter.png" alt="Balcão de bar Mi Ti Cocktail">
+        <img src="assets/gallery-event-bar.png" alt="Estrutura de bar montada para evento">
       </div>
     </section>
 
-    <section class="final-cta">
-      <div class="final-overlay"></div>
-      <div class="final-content">
-        <p class="eyebrow">VAMOS CONVERSAR?</p>
-        <h2>Vamos criar o bar<br><em>do seu evento?</em></h2>
-        <p>Conte um pouco sobre o seu evento e vamos pensar juntos na melhor experiência.</p>
-        <a class="button light" data-whatsapp href="#">Solicitar orçamento pelo WhatsApp <span>↗</span></a>
+    <section class="cocktails-gallery" id="cocktails" aria-label="Cocktails Mi Ti">
+      <div class="cocktails-grid">
+        <figure><img src="assets/cocktail-negroni.jpg" alt="Cold Brew Martini"><figcaption>Cold Brew Martini<span>(variação do Espresso Martini)</span></figcaption></figure>
+        <figure><img src="assets/cocktail-cold-brew.jpg" alt="Macunaíma"><figcaption>Macunaíma</figcaption></figure>
+        <figure><img src="assets/cocktail-macunaima.jpg" alt="Aperol Sour"><figcaption>Aperol Sour</figcaption></figure>
+        <figure><img src="assets/cocktail-aperol-sour.jpg" alt="Sweet Hibiscus"><figcaption>Sweet Hibiscus<span>(Mocktail Autoral)</span></figcaption></figure>
+        <figure><img src="assets/cocktail-sweet-hibiscus.jpg" alt="Mark Twain"><figcaption>Mark Twain<span>(Feito na taça a pedido do casal)</span></figcaption></figure>
+        <figure><img src="assets/cocktail-mark-twain.jpg" alt="Negroni"><figcaption>Negroni</figcaption></figure>
       </div>
+    </section>
+
+    <section class="feedbacks-page" id="feedbacks" aria-label="Feedbacks de clientes da Mi Ti Cocktail">
+      <div class="feedbacks-watermark" aria-hidden="true"></div>
+      <h2 class="feedbacks-title">FEEDBACKS</h2>
+      <div class="feedback-item feedback-left-main"><img src="assets/feedback-left-main.png" alt="Mensagem de cliente agradecendo e elogiando os cocktails da Mi Ti"></div>
+      <div class="feedback-item feedback-left-bottom"><img src="assets/feedback-left-bottom.png" alt="Cliente comenta que recebeu muitos elogios e agradece"></div>
+      <div class="feedback-item feedback-bartender"><img src="assets/feedback-bartender.png" alt="Bartender da Mi Ti preparando um cocktail"></div>
+      <div class="feedback-item feedback-guest"><img src="assets/feedback-guest.png" alt="Convidada brindando em evento com a Mi Ti"></div>
+      <div class="feedback-item feedback-center-main"><img src="assets/feedback-center-main.png" alt="Mensagem de casal agradecendo à equipe Mi Ti"></div>
+      <div class="feedback-item feedback-center-reply"><img src="assets/feedback-center-reply.png" alt="Mensagem de agradecimento pela entrega e cordialidade da equipe"></div>
+      <div class="feedback-item feedback-bartender-cocktail"><img src="assets/feedback-bartender-cocktail.png" alt="Bartender segurando cocktail preparado pela Mi Ti"></div>
+      <div class="feedback-item feedback-right-top"><img src="assets/feedback-right-top.png" alt="Cliente confirma que deu tudo certo no evento"></div>
+      <div class="feedback-item feedback-right-reply"><img src="assets/feedback-right-reply.png" alt="Cliente elogia a experiência e demonstra interesse em contratar novamente"></div>
+    </section>
+
+    <section class="contact-page" id="contato" aria-label="Contato e orçamento">
+      <div class="contact-hero">
+        <div class="contact-shade"></div>
+        <div class="contact-content">
+          <p class="contact-eyebrow">VAMOS CONVERSAR?</p>
+          <h2>Seu evento merece<br>um bar à altura.</h2>
+          <p class="contact-description">Conte um pouco sobre o seu evento e vamos construir a experiência ideal.</p>
+          <a class="contact-button" href="https://wa.me/5511974651716?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20meu%20evento." target="_blank" rel="noopener">
+            <span>SOLICITAR ORÇAMENTO PELO WHATSAPP</span><span class="external" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+      <footer class="contact-footer">
+        <div class="contact-brand">
+          <img src="assets/logo-miti.png" alt="Mi Ti Cocktail">
+          <p>“Especialmente de Mim para Ti”</p>
+          <p>Alta coquetelaria para eventos</p>
+        </div>
+        <div class="contact-details">
+          <a href="https://instagram.com/miticocktail" target="_blank" rel="noopener">@miticocktail</a>
+          <a href="mailto:contato@miticocktail.com">contato@miticocktail.com</a>
+          <a href="tel:+5511974651716">(11) 9 7465-1716</a>
+        </div>
+        <a class="footer-cta" href="https://wa.me/5511974651716?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20meu%20evento." target="_blank" rel="noopener">
+          SOLICITAR ORÇAMENTO PELO WHATSAPP <span aria-hidden="true">↗</span>
+        </a>
+      </footer>
     </section>
   </main>
-
-  <footer>
-    <div class="footer-brand">
-      <span class="brand-mi">MI</span><span class="brand-ti">TI</span><small>COCKTAIL</small>
-    </div>
-    <p>Alta coquetelaria para eventos.</p>
-    <div class="footer-links">
-      <a data-whatsapp href="#">WhatsApp</a>
-      <a href="#top">Voltar ao topo ↑</a>
-    </div>
-    <div class="copyright">© <span id="year"></span> Mi Ti Cocktail. Todos os direitos reservados.</div>
-  </footer>
-
   <script>
-    // TROQUE APENAS ESTE NÚMERO pelo WhatsApp da Mi Ti, com DDI + DDD.
-    // Exemplo: 5511999999999
-    const WHATSAPP = "5511999999999";
-    const MESSAGE = "Olá! Vim pelo site da Mi Ti Cocktail e gostaria de solicitar um orçamento para meu evento.";
-
-    document.querySelectorAll("[data-whatsapp]").forEach(link => {
-      link.href = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(MESSAGE)}`;
-      link.target = "_blank";
-      link.rel = "noopener";
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(open));
     });
-
-    document.getElementById("year").textContent = new Date().getFullYear();
-
-    const toggle = document.querySelector(".menu-toggle");
-    const nav = document.querySelector(".nav");
-    toggle.addEventListener("click", () => {
-      const open = nav.classList.toggle("open");
-      toggle.setAttribute("aria-expanded", open);
-    });
-    nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => nav.classList.remove("open")));
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
   </script>
 </body>
 </html>

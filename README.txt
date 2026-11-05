@@ -1,20 +1,13 @@
-# Mi Ti Cocktail — Site V1
+Mi Ti Cocktail — site completo para avaliação (8 páginas)
 
-## Como editar o WhatsApp
-Abra `index.html` e procure:
-`const WHATSAPP = "5511999999999";`
+Este pacote parte integralmente do ZIP fornecido pelo usuário com as páginas 01 a 07 aprovadas.
+A página 08 (Contato e orçamento) foi adicionada ao final, usando a imagem de fundo do barril e a marca da Mi Ti.
 
-Troque pelo número da Mi Ti no formato DDI + DDD + número, somente números.
+Como visualizar:
+1. Extraia o ZIP mantendo a pasta assets.
+2. Abra index.html em um navegador.
+3. Para publicar no GitHub Pages, envie index.html, style.css e a pasta assets para a raiz do repositório.
 
-## Estrutura
-- `index.html` — conteúdo do site
-- `style.css` — visual e responsividade
-- `assets/` — fotos da Mi Ti
-
-## Publicação
-Este projeto foi preparado para GitHub Pages. Depois de criar um repositório público, envie estes arquivos para a raiz do repositório e ative Pages em:
-Settings → Pages → Deploy from a branch → main → /(root) → Save.
-
-Depois conectamos o domínio da GoDaddy.
-
-As fotos de bar foram adicionadas em `assets/bar-jardim.webp` e `assets/bar-interno.webp`.
+WhatsApp configurado: +55 11 97465-1716
+Instagram: @miticocktail
+E-mail: contato@miticocktail.com
