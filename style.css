@@ -546,3 +546,16 @@ body { margin: 0; font-family: var(--poppins); background: #111; }
  .contact-details { padding-top:0; gap:12px; font-size:13px; }
  .footer-cta { justify-self:start; margin-top:10px; white-space:normal; font-size:11px; }
 }
+
+/* Título acessível para estrutura sem alterar o visual */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
